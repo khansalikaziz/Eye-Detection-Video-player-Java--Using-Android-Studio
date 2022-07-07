@@ -1,7 +1,7 @@
 # Eye-Detection-Video-player-Java--Using-Android-Studio
 Summer training project
 
-# Play Store Link -: https://play.google.com/store/apps/details?id=com.salikapp.eyedetectionvideoplayer
+Play Store Link -: https://play.google.com/store/apps/details?id=com.salikapp.eyedetectionvideoplayer
 # Output screenshots
 
 <img src="https://user-images.githubusercontent.com/76683360/177821869-c92f5d14-f014-4fa9-aad7-297f85075e2a.png" width="250" height="440" />
