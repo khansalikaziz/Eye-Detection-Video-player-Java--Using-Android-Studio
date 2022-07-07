@@ -32,10 +32,10 @@ public class Splash extends AppCompatActivity {
         }, SPLASH_TIME);
     }
 
-    //Method to run progress bar for 5 seconds
+    //Method to run progress bar for 3 seconds
     private void playProgress() {
         ObjectAnimator.ofInt(splashProgress, "progress", 100)
-                .setDuration(5000)
+                .setDuration(3000)
                 .start();
     }
 }

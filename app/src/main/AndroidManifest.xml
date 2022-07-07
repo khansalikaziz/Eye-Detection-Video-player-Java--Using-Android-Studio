@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
 
     <application
             android:allowBackup="true"
@@ -14,9 +15,12 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.EyeDetectionVideoPlayer">
         <activity
+                android:name=".Trial"
+                android:exported="true"/>
+        <activity
                 android:name=".Splash"
-                android:screenOrientation="portrait"
-                android:exported="true">
+                android:exported="true"
+                android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -25,14 +29,13 @@
         </activity>
         <activity
                 android:name=".Video"
-                android:screenOrientation="portrait"
-                android:exported="true">
+                android:exported="true"
+                android:screenOrientation="portrait">
         </activity>
         <activity
                 android:name=".MainActivity"
-                android:screenOrientation="portrait"
-                android:exported="true">
-
+                android:exported="true"
+                android:screenOrientation="portrait">
         </activity>
     </application>
 
